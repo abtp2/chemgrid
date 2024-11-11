@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <script src="PT.json"></script>
+    <title>Periodic Table</title>
+</head>
+<body>
+<h1>THE PERIODIC TABLE</h1>
+<main class="upper">
+<div class="container">
+ <div class="box _1"></div>
+ <div class="box _3"></div>
+ <div class="box _11"></div>
+ <div class="box _19"></div>
+ <div class="box _37"></div>
+ <div class="box _55"></div>
+ <div class="box _87"></div>
+</div>
+<div class="container">
+ <div class="box _4"></div>
+ <div class="box _12"></div>
+ <div class="box _20"></div>
+ <div class="box _38"></div>
+ <div class="box _56"></div>
+ <div class="box _88"></div>
+</div>
+<div class="container">
+ <div class="box _21"></div>
+ <div class="box _39"></div>
+ <div class="box L"><abbr>*</abbr></div>
+ <div class="box A"><abbr>**</abbr></div>
+</div>
+<div class="container">
+ <div class="box _22"></div>
+ <div class="box _40"></div>
+ <div class="box _72"></div>
+ <div class="box _104"></div>
+</div>
+<div class="container">
+ <div class="box _23"></div>
+ <div class="box _41"></div>
+ <div class="box _73"></div>
+ <div class="box _105"></div>
+</div>
+<div class="container">
+ <div class="box _24"></div>
+ <div class="box _42"></div>
+ <div class="box _74"></div>
+ <div class="box _106"></div>
+</div>
+<div class="container">
+ <div class="box _25"></div>
+ <div class="box _43"></div>
+ <div class="box _75"></div>
+ <div class="box _107"></div>
+</div>
+<div class="container">
+ <div class="box _26"></div>
+ <div class="box _44"></div>
+ <div class="box _76"></div>
+ <div class="box _108"></div>
+</div>
+<div class="container">
+ <div class="box _27"></div>
+ <div class="box _45"></div>
+ <div class="box _77"></div>
+ <div class="box _109"></div>
+</div>
+<div class="container">
+ <div class="box _28"></div>
+ <div class="box _46"></div>
+ <div class="box _78"></div>
+ <div class="box _110"></div>
+</div>
+<div class="container">
+ <div class="box _29"></div>
+ <div class="box _47"></div>
+ <div class="box _79"></div>
+ <div class="box _111"></div>
+</div>
+<div class="container">
+ <div class="box _30"></div>
+ <div class="box _48"></div>
+ <div class="box _80"></div>
+ <div class="box _112"></div>
+</div>
+<div class="container">
+ <div class="box _5"></div>
+ <div class="box _13"></div>
+ <div class="box _31"></div>
+ <div class="box _49"></div>
+ <div class="box _81"></div>
+ <div class="box _113"></div>
+</div>
+<div class="container">
+ <div class="box _6"></div>
+ <div class="box _14"></div>
+ <div class="box _32"></div>
+ <div class="box _50"></div>
+ <div class="box _82"></div>
+ <div class="box _114"></div>
+</div>
+<div class="container">
+ <div class="box _7"></div>
+ <div class="box _15"></div>
+ <div class="box _33"></div>
+ <div class="box _51"></div>
+ <div class="box _83"></div>
+ <div class="box _115"></div>
+</div>
+<div class="container">
+ <div class="box _8"></div>
+ <div class="box _16"></div>
+ <div class="box _34"></div>
+ <div class="box _52"></div>
+ <div class="box _84"></div>
+ <div class="box _116"></div>
+</div>
+<div class="container">
+ <div class="box _9"></div>
+ <div class="box _17"></div>
+ <div class="box _35"></div>
+ <div class="box _53"></div>
+ <div class="box _85"></div>
+ <div class="box _117"></div>
+</div>
+<div class="container">
+ <div class="box _2"></div>
+ <div class="box _10"></div>
+ <div class="box _18"></div>
+ <div class="box _36"></div>
+ <div class="box _54"></div>
+ <div class="box _86"></div>
+ <div class="box _118"></div>
+</div>
+</main>
+<main class="lower">
+<div class="container">
+ <div class="box _57"></div>
+ <div class="box _58"></div>
+ <div class="box _59"></div>
+ <div class="box _60"></div>
+ <div class="box _61"></div>
+ <div class="box _62"></div>
+ <div class="box _63"></div>
+ <div class="box _64"></div>
+ <div class="box _65"></div>
+ <div class="box _66"></div>
+ <div class="box _67"></div>
+ <div class="box _68"></div>
+ <div class="box _69"></div>
+ <div class="box _70"></div>
+ <div class="box _71"></div>
+</div>
+<div class="container">
+ <div class="box _89"></div>
+ <div class="box _90"></div>
+ <div class="box _91"></div>
+ <div class="box _92"></div>
+ <div class="box _93"></div>
+ <div class="box _94"></div>
+ <div class="box _95"></div>
+ <div class="box _96"></div>
+ <div class="box _97"></div>
+ <div class="box _98"></div>
+ <div class="box _99"></div>
+ <div class="box _100"></div>
+ <div class="box _101"></div>
+ <div class="box _102"></div>
+ <div class="box _103"></div>
+</div> 
+</main>
+<!-- Instructions -->
+<div class="instructions">
+ <h2>Instructions:</h2>
+ <p>1. Click on any element to know more about it.</p>
+ <p>2. Rotate your device to landscape to get proper view.</p>
+ <p>3. For convenience, <button id="mode">click here</button> to toggle dark mode.</p>
+ <p>4. Double click anywhere to toggle fullscreen.</p>
+</div>
+<div class="instructions">
+ <h2>Color Scheme:</h2>
+ <div>
+  <span data-color="#317dcf">Diatomic nonmetal</span>
+  <span data-color="#84379f">Noble gas</span>
+  <span data-color="#f24d68">Alkali metal</span>
+  <span data-color="#f18f1d">Alkaline earth metal</span>
+  <span data-color="#6cd2ed">Metalloid</span>
+  <span data-color="#317dcf">Polyatomic nonmetal</span>
+  <span data-color="#a3c037">Post-transition metal</span>
+  <span data-color="#f0c806">Transition metal</span>
+  <span data-color="#23ad7c">Lanthanide</span>
+  <span data-color="#1e39a6">Actinide</span>
+  <span data-color="#787981">Unknown chemical properties</span>
+ </div>
+</div>
+<!-- Overview -->
+<div id="overview">
+ <label>2</label>
+ <h2>He</h2>
+ <h3>(Helium)</h3>
+ <p>elec. configuration: <span>1s2</span></p>
+ <p>at. mass: <span>4.0026022u</span></p>
+ <p>category: <span>Noble gas</span></p>
+ <p>period: <span>1</span></p>
+ <p>group: <span>18</span></p>
+ <p>phase: <span>Gas</span></p>
+ <p>electronegativity(pauling): <span>null</span></p>
+</div>
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+user-select: none;
+font-family: Arial !important; 
+/* outline: 1px solid blue; */
+}
+body{
+width: 100%;
+background: #333333;
+}
+.overview > *:not(#overview){
+filter: blur(2px);
+opacity: 0.2;
+pointer-events: none; 
+}
+.invert .box, .invert .instructions:nth-of-type(2) div span::before, .invert #overview label{
+filter: invert(1) !important;
+}
+.invert .box{
+box-shadow: 0 3px 6px rgba(255,255,255,0.16), 0 3px 6px rgba(255,255,255,0.23) !important;
+}
+h1{
+font-size: 25px;
+color: #999;
+margin: 1.5rem auto;
+text-align: center;
+font-weight: 900;
+}
+
+
+.noble_gas{
+background: #84379f;
+}
+.alkali_metal{
+background: #f24d68;
+}
+.alkaline_earth_metal{
+background: #f18f1d;
+}
+.metalloid{
+background: #6cd2ed;
+}
+.polyatomic_nonmetal{
+background: #317dcf;
+}
+.diatomic_nonmetal{
+background: #317dcf;
+}
+.post_transition_metal{
+background: #a3c037;
+}
+.transition_metal{
+background: #f0c806;
+}
+.unknown-probably_transition_metal{
+background: #787981;
+}
+.unknown-probably_post_transition_metal{
+background: #787981;
+}
+.unknown-probably_metalloid{
+background: #787981;
+}
+.unknown-predicted_to_be_noble_gas{
+background: #787981;
+}
+.L, .lanthanide{
+background: #23ad7c;
+}
+.A, .actinide{
+background: #1e39a6;
+}
+.box{
+width: 100%;
+aspect-ratio: 1/1;
+border: 0.1px solid #333;
+overflow: hidden;
+position: relative; 
+}
+.box:active{
+z-index: 2;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+transform: scale(1.5);
+}
+.box p{
+font-size: 1.5cqi;
+font-weight: 500;
+color: #000;
+transform: scale(0.6);
+margin: -0.8px 0 0 -0.8ch;
+}
+.box abbr{
+font-size: 2cqi;
+font-weight: 700;
+color: #000;
+text-align: center;
+width: 100%;
+text-decoration: none;
+display: block;
+margin-top: -2px;
+}
+.box abbr::after{
+content: attr(name);
+display: block;
+font-size: 1.5cqi;
+font-weight: 400;
+place-self: end center;
+color: #000;
+transform: scale(0.4);
+margin-top: -3px;
+}
+@media(max-width: 400px){
+.box abbr::after{
+display: none;
+}}
+.L abbr, .A abbr{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2cqi;
+font-weight: 800;
+}
+.upper{
+width: 95%;
+margin: 1rem auto 1rem auto;
+display: flex;
+align-items: flex-end;
+}
+.upper .container{
+width: calc(100%/18);
+}
+.lower{
+width: 95%;
+margin: 0 auto 2rem auto;
+display: flex;
+flex-direction: column;
+}
+.lower .container{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.lower .container .box{
+width: calc(100%/18);
+border: 0.1px solid #333;
+}
+.instructions{
+width: 95%;
+margin: 1rem auto;
+background: #111;
+border: 2px solid #111;
+padding: 12px;
+}
+.instructions h2{
+margin: 0 0 10px 0;
+color: #aaa;
+font-size: 16px;
+font-weight: 700;
+}
+.instructions p{
+padding: 5px 0;
+color: #777;
+font-size: 14px;
+}
+.instructions p button{
+background: #000;
+color: #777;
+border-radius: 2px;
+padding: 2px 4px;
+margin: 0 3px;
+}
+.instructions div{
+max-width: 500px;
+display: grid;
+grid-template-rows: repeat(5, 1fr);
+grid-template-columns: repeat(2, auto);
+}
+.instructions div span{
+padding: 5px 0;
+color: #777;
+font-size: 14px;
+display: flex;
+align-items: center;
+}
+.instructions div span::before{
+content: "";
+width: 13px;
+height: 14px;
+margin-right: 5px;
+display: block; 
+background: var(--spanColor);
+}
+#overview{
+width: 400px;
+max-width: 95%;
+position: fixed; 
+transform: translate(-50%,-50%);
+top: -500%;
+left: 50%;
+transition: 0.5s ease-in-out;
+background: #111;
+padding: 15px;
+border-radius: 8px;
+border: 0.1px solid #999;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#overview label{
+position: absolute;
+top: 15px;
+left: 15px;
+color: #000;
+padding: 8px;
+width: 45px;
+aspect-ratio: 1/1;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+border: 3px solid #444;
+}
+#overview h2{
+color: #999;
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+font-size: 24px;
+font-weight: 900;
+}
+#overview h3{
+color: #777;
+font-size: 15px;
+font-weight: 400;
+display: block;
+width: 100%;
+text-align: center;
+margin: 4px 0 2rem 0;
+}
+#overview p{
+color: #888;
+font-size: 15px;
+font-weight: 400;
+margin: 6px 0;
+line-height: 1.5;
+}
+#overview p span{
+color: #aaa;
+font-size: 15px;
+font-weight: 400;
+margin: 0 0 0 2px;
+}
+</style>
+<script>
+const length = JSON.stringify(PT.elements.length);
+for(i=1;i < length;i++){
+const atNum = JSON.stringify(PT.elements[i-1].number);
+const name = JSON.stringify(PT.elements[i-1].name).substring(1,JSON.stringify(PT.elements[i-1].name).length-1);
+const symbol = JSON.stringify(PT.elements[i-1].symbol).substring(1,JSON.stringify(PT.elements[i-1].symbol).length-1);
+const category = JSON.stringify(PT.elements[i-1].category).substring(1,JSON.stringify(PT.elements[i-1].category).length-1);
+document.getElementsByClassName(`_${i}`)[0].innerHTML =`
+  <p>${atNum}</p>
+  <abbr>
+  ${symbol}
+  </abbr>  
+`;
+document.getElementsByClassName(`_${i}`)[0].setAttribute("category",category);
+document.getElementsByClassName(`_${i}`)[0].querySelector("abbr").setAttribute("name",name);
+document.getElementsByClassName(`_${i}`)[0].classList.add(category.replace(/ /g, "_"));
+}
+let overview = false;
+//show
+function show(i,color){
+const el = document.getElementById("overview");
+const number = JSON.stringify(PT.elements[i-1].number);
+const symbol = JSON.stringify(PT.elements[i-1].symbol).substring(1,JSON.stringify(PT.elements[i-1].symbol).length-1);
+const name = JSON.stringify(PT.elements[i-1].name).substring(1,JSON.stringify(PT.elements[i-1].name).length-1);
+const config = JSON.stringify(PT.elements[i-1].electron_configuration_semantic).substring(1,JSON.stringify(PT.elements[i-1].electron_configuration_semantic).length-1);
+const mass = JSON.stringify(PT.elements[i-1].atomic_mass);
+const category = JSON.stringify(PT.elements[i-1].category).substring(1,JSON.stringify(PT.elements[i-1].category).length-1);
+const period = JSON.stringify(PT.elements[i-1].period);
+const group = JSON.stringify(PT.elements[i-1].group);
+const phase = JSON.stringify(PT.elements[i-1].phase).substring(1,JSON.stringify(PT.elements[i-1].phase).length-1);
+const elNeg = JSON.stringify(PT.elements[i-1].electronegativity_pauling);
+el.querySelector("label").innerHTML = number;
+el.querySelector("h2").innerHTML = symbol;
+el.querySelector("h3").innerHTML = `(${name})`;
+el.querySelector("p:nth-of-type(1) span").innerHTML = config;
+el.querySelector("p:nth-of-type(2) span").innerHTML = mass + "u";
+el.querySelector("p:nth-of-type(3) span").innerHTML = category;
+el.querySelector("p:nth-of-type(4) span").innerHTML = period;
+el.querySelector("p:nth-of-type(5) span").innerHTML = group;
+el.querySelector("p:nth-of-type(6) span").innerHTML = phase;
+el.querySelector("p:nth-of-type(7) span").innerHTML = elNeg;
+el.style.top ="50%";
+document.body.classList.add("overview");
+el.querySelector("label").style.background = color;
+overview = true;
+setTimeout(()=>{
+document.addEventListener("click",hide); 
+},100);
+}
+function hide(){
+const el = document.getElementById("overview");
+if(!el.contains(event.target)){
+el.style.top ="-500%";
+document.body.classList.remove("overview");
+overview = false;
+}
+setTimeout(()=>{
+document.removeEventListener("click",hide); 
+},100);
+}
+//overview 
+document.querySelectorAll(".box").forEach((box)=>{
+box.addEventListener("click",(event)=>{
+if(!document.getElementsByClassName("L")[0].contains(event.target) && !document.getElementsByClassName("A")[0].contains(event.target)){
+const i = parseInt(box.querySelector("p").innerHTML);
+const color = window.getComputedStyle(box).background;
+show(i,color)
+}});
+});
+
+
+//dark mode
+document.getElementById("mode").onclick =()=>{
+document.body.classList.toggle("invert");
+}
+//color scheme
+document.querySelectorAll('.instructions:nth-of-type(2) div span').forEach(span =>{
+const color = span.getAttribute('data-color');
+span.style.setProperty('--spanColor', color);
+});
+//fullscreen
+document.addEventListener('dblclick',function(){
+if(!document.fullscreenElement&&!document.mozFullScreenElement&&!document.webkitFullscreenElement&&!document.msFullscreenElement){if(document.documentElement.requestFullscreen)document.documentElement.requestFullscreen();else if(document.documentElement.mozRequestFullScreen)document.documentElement.mozRequestFullScreen();else if(document.documentElement.webkitRequestFullscreen)document.documentElement.webkitRequestFullscreen();else if(document.documentElement.msRequestFullscreen)document.documentElement.msRequestFullscreen();}else{if(document.exitFullscreen)document.exitFullscreen();else if(document.mozCancelFullScreen)document.mozCancelFullScreen();else if(document.webkitExitFullscreen)document.webkitExitFullscreen();else if(document.msExitFullscreen)document.msExitFullscreen();}});
+
+</script>
+</body>
+</html>
