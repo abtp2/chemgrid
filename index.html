@@ -489,13 +489,16 @@ document.getElementsByClassName(`_${i}`)[0].querySelector("abbr").setAttribute("
 document.getElementsByClassName(`_${i}`)[0].classList.add(category.replace(/ /g, "_"));
 }
 let overview = false;
+function convertToSupTag(config){
+return config.replace(/\d+/g, match => `<sup>${match}</sup>`);
+}
 //show
 function show(i,color){
 const el = document.getElementById("overview");
 const number = JSON.stringify(PT.elements[i-1].number);
 const symbol = JSON.stringify(PT.elements[i-1].symbol).substring(1,JSON.stringify(PT.elements[i-1].symbol).length-1);
 const name = JSON.stringify(PT.elements[i-1].name).substring(1,JSON.stringify(PT.elements[i-1].name).length-1);
-const config = JSON.stringify(PT.elements[i-1].electron_configuration_semantic).substring(1,JSON.stringify(PT.elements[i-1].electron_configuration_semantic).length-1);
+const config = convertToSupTag(JSON.stringify(PT.elements[i-1].electron_configuration_semantic).substring(1,JSON.stringify(PT.elements[i-1].electron_configuration_semantic).length-1));
 const mass = JSON.stringify(PT.elements[i-1].atomic_mass);
 const category = JSON.stringify(PT.elements[i-1].category).substring(1,JSON.stringify(PT.elements[i-1].category).length-1);
 const period = JSON.stringify(PT.elements[i-1].period);
