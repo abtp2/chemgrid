@@ -490,7 +490,10 @@ document.getElementsByClassName(`_${i}`)[0].classList.add(category.replace(/ /g,
 }
 let overview = false;
 function convertToSupTag(config){
-return config.replace(/\d+/g, match => `<sup>${match}</sup>`);
+return config.replace(/([spdf]\d+)/g, match => {
+const orbital = match.slice(0, -1); const exponent =
+match.slice(-1); return `${orbital}<sup>${exponent}</sup>`
+});
 }
 //show
 function show(i,color){
