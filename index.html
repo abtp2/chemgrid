@@ -472,6 +472,16 @@ margin: 0 0 0 2px;
 }
 </style>
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+  if ("serviceWorker" in navigator){
+    navigator.serviceWorker
+      .register("serviceWorker.js")
+      .then(res => console.log("Service worker registered"))
+      .catch(err => console.error("Service worker registration failed", err));
+  }
+});
+</script>
+<script>
 const length = JSON.stringify(PT.elements.length);
 for(i=1;i < length;i++){
 const atNum = JSON.stringify(PT.elements[i-1].number);
