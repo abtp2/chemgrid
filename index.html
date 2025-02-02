@@ -566,7 +566,7 @@ document.getElementById("mode").onclick =()=>{
 document.body.classList.toggle("invert");
 }
 //color scheme
-document.querySelectorAll('.instructions:nth-of-type(2) div span').forEach(span =>{
+document.querySelectorAll('.instructions:nth-of-type(1) div span').forEach(span =>{
 const color = span.getAttribute('data-color');
 span.style.setProperty('--spanColor', color);
 });
